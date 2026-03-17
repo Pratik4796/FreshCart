@@ -26,6 +26,7 @@ FreshCart is a full-stack MERN (MongoDB, Express, React, Node.js) grocery web ap
 
 ## 📁 Project Structure
 
+```bash
 FreshCart/
 │
 ├── backend/
@@ -60,9 +61,9 @@ FreshCart/
 │   │   ├── order.routes.js
 │   │   └── address.routes.js
 │   │
-│   ├── .env
 │   ├── index.js
-│   └── package.json
+│   ├── package.json
+│   └── .env
 │
 ├── frontend/
 │   ├── src/
@@ -86,3 +87,4 @@ FreshCart/
 │
 ├── .gitignore
 └── README.md
+```
