@@ -1,90 +1,49 @@
-# FreshCart 🛒
+# 🛒 FreshCart
 
-FreshCart is a full-stack MERN (MongoDB, Express, React, Node.js) grocery web application.
-
----
-
-## 🚀 Features
-
-- 👤 User Authentication (Login / Signup)
-- 🛍️ Product Listing & Categories
-- 🧑‍💼 Seller/Admin Dashboard
-- ➕ Add / Manage Products
-- 🛒 Cart Functionality
-- 📦 Order Management
+A modern **Full Stack Grocery Shopping Web Application** built using the **MERN Stack**. FreshCart provides a seamless online grocery shopping experience with secure authentication, product management, shopping cart functionality, and a responsive user interface.
 
 ---
 
-## 🛠 Tech Stack
+## 📌 GitHub Repository
 
-- Frontend: React.js, Tailwind CSS
-- Backend: Node.js, Express.js
-- Database: MongoDB Atlas
-- Image Storage: multer
+**Repository:** https://github.com/Pratik4796/FreshCart
 
 ---
 
-## 📁 Project Structure
+## ✨ Features
 
-```bash
-FreshCart/
-│
-├── backend/
-│   ├── config/
-│   │   ├── connectDB.js
-│   │   ├── cloudinary.js
-│   │   └── multer.js
-│   │
-│   ├── controllers/
-│   │   ├── user.controller.js
-│   │   ├── seller.controller.js
-│   │   ├── product.controller.js
-│   │   ├── cart.controller.js
-│   │   ├── order.controller.js
-│   │   └── address.controller.js
-│   │
-│   ├── middlewares/
-│   │   ├── authUser.js
-│   │   └── authSeller.js
-│   │
-│   ├── models/
-│   │   ├── user.model.js
-│   │   ├── product.model.js
-│   │   ├── order.model.js
-│   │   └── address.model.js
-│   │
-│   ├── routes/
-│   │   ├── user.routes.js
-│   │   ├── seller.routes.js
-│   │   ├── product.routes.js
-│   │   ├── cart.routes.js
-│   │   ├── order.routes.js
-│   │   └── address.routes.js
-│   │
-│   ├── index.js
-│   ├── package.json
-│   └── .env
-│
-├── frontend/
-│   ├── src/
-│   │   ├── assets/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   │   ├── Home.jsx
-│   │   │   ├── ProductDetails.jsx
-│   │   │   ├── Cart.jsx
-│   │   │   ├── MyOrders.jsx
-│   │   │   └── AddProduct.jsx
-│   │   │
-│   │   ├── context/
-│   │   │   └── AppContext.jsx
-│   │   │
-│   │   ├── App.jsx
-│   │   └── main.jsx
-│   │
-│   ├── index.html
-│   └── package.json
-│
-├── .gitignore
-└── README.md
-```
+- 🔐 Secure User Authentication
+- 🛍️ Browse Products by Categories
+- 🛒 Shopping Cart Management
+- ➕ Add / Update / Delete Products
+- 🖼️ Product Image Upload using Multer
+- ⚡ RESTful API Architecture
+- 📱 Fully Responsive UI
+- 💾 MongoDB Atlas Integration
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React.js
+- Tailwind CSS
+- Axios
+- React Router DOM
+
+### Backend
+- Node.js
+- Express.js
+- Multer
+- JWT Authentication
+- Bcrypt.js
+
+### Database
+- MongoDB Atlas
+- Mongoose
+
+### Tools
+- Git
+- GitHub
+- VS Code
+- Postman
